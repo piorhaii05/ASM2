@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1300px;
+    margin: 0px auto;
+}
+header{
+    height: 50px;
+    background-color: rgb(44, 43, 43);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+header li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 15px;
+    font-size: 15px;
+}
+header li a:hover{
+    color: red;
+}
+.thumb_header img{
+    height: 40px;
+    margin: 5px 15px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content_header{
+    display: flex;
+    list-style: none;
+}
+.content_header li a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.content_header li a:hover{
+    color: rgb(218, 45, 45);
+}
+.banner{
+    height: 180px;
+    background-color: rgb(218, 45, 45);
+    padding: 20px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+button{
+    background: white;
+    border: none;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+button img{
+    height: 50px;
+    width: 60px;
+    
+}
+input{
+    height: 53px;
+    width: 600px;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 5px 15px;
+    font-size: larger;  
+}
+.thumb_banner{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    background-color: rgb(238, 231, 231);
+    
+}
+.content_footer1{
+    margin: 0px 150px;
+}
+.content_footer2{
+    margin: 0px 150px;
+}
+.title_content{
+    color: red;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+}
+.content{
+    margin: 40px 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.timer_content{
+    font-size: small;
+    color: rgb(129, 126, 126);
+    margin: 20px 0px;
+    text-align: justify;
+
+}
+.content1{
+    margin: 15px 0px;
+    font-size: large;
+}
+.title2{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+li{
+    margin: 15px 20px;
+}
+.content_title4{
+    margin: 15px 20px;
+}

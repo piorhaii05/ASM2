@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANG CHỦ</title>
+    <link rel="stylesheet" href="ASM.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="title">
+                <li><a href="index.html" target="">TRANG CHỦ</a></li>
+                <li><a href="./Tin Tức/TINTUC.html">TIN TỨC</a></li>
+                <li><a href="../ASM/Liên hệ/LIENHE.html">TRANG LIÊN HỆ</a></li>
+            </div>
+            <div class="thumb_logo"><img src="./ảnh/logo-new.png" alt=""></div>
+            <div class="title">
+                <li><a href="#">GIFTCODE</a></li>
+                <li><a href="#">TÀI KHOẢN</a></li>
+                <li><a href="#">HỢP TÁC</a></li>
+            </div>
+        </header>
+        <div class="banner">
+            <div class="image1">
+                <img id="img1" onclick="changeImage1()" src="./ảnh/1920x864(3).png" alt="">
+            </div>
+            <script>
+                var index1 = 1;
+                function changeImage1() {
+                    var imgs = ["ảnh/1920x864(3).png", "ảnh/ảnh2.png", "ảnh/ảnh3.jpg", "ảnh/ảnh4.png"];
+                    document.getElementById('img1').src = imgs[index1];
+                    index1++;
+                    if (index1 == 4) {
+                        index1 = 0;
+                    }
+                }
+                setInterval(changeImage1, 2000);
+            </script>
+        </div>
+        <h1>TIN TỨC MỚI NHẤT</h1>
+        <div class="content">
+            <div class="card">
+                <li class="content1"><a href="#">HELEN BÉ HOA XUÂN</a></li>
+                <div class="thumb_content1"><img src="./ảnh/helen.png" alt=""></div>
+            </div>
+            <div class="card">
+                <li class="content1"><a href="#">BỨC HỌA HỒ ĐIỆP</a></li>
+                <div class="thumb_content1"><img src="./ảnh/hồ điệp.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="double_content">
+            <div class="content2">
+                <div class="card1">
+                    <div class="thumb_content2"><img src="./ảnh/3591574521b486952f15d5b07d558cff65e15bb398a0d.jpg"
+                            alt=""></div>
+                </div>
+                <div class="card1">
+                    <div class="thumb_content2"><img src="./ảnh/5a4219fe11915dad261287ff743abaec65e6f329699b7.jpg"
+                            alt=""></div>
+                </div>
+            </div>
+            <div class="content3">
+                <div class="card2">
+                    <div class="thumb_content3"><img src="./ảnh/f1e7c1e11ff8d43e9c1618eb1c1a8d8965df076f59d8c.png"
+                            alt=""></div>
+                </div>
+                <div class="card2">
+                    <div class="thumb_content3"><img src="./ảnh/52a5f9e5d491679b7190c21f912dfde165dd6f7238bae.jpeg"
+                            alt=""></div>
+                </div>
+            </div>
+        </div>
+        <li class="see_more"><a href="#">XEM THÊM >></a></li>
+        <div class="line"></div>
+        <div class="caption_footer">TƯỚNG DÙNG MIỄN PHÍ</div>
+        <div class="image">
+            <img id="img" onclick="changeImage()" src="./ảnh/ea72616fd3e42e359af015767759c2935ddcd37e7be3b.png" alt="">
+        </div>
+        <script>
+            var index = 1;
+            function changeImage() {
+                var imgs = ["ảnh/ea72616fd3e42e359af015767759c2935ddcd37e7be3b.png", "ảnh/c83fa58477da41640d60a60e2bcfaaab5ddcd167597f4.png", "ảnh/94f778d9bae77f0d8533dba4e0b9e50c5ddcd2bd34d7f.png", "ảnh/67bd01ee2708589e83cf48a670bb15255d63c59285fba.png", "ảnh/0f903bb4c3431e576676a86464b9c1f95ddcd48299048.png", "ảnh/0df51fbe1aedacb43acc27fc674ff22a5a780b3507cc7.png"];
+                document.getElementById('img').src = imgs[index];
+                index++;
+                if (index == 6) {
+                    index = 0;
+                }
+            }
+            // setInterval(changeImage,1000);
+        </script>
+        <div class="line"></div>
+        <footer>
+            <div class="thumb_footer"><img src="./ảnh/logo-footer.png" alt=""></div>
+            <div class="line1"></div>
+            <div class="content_footer">
+                <div class="content_footer1">CÔNG TY CỔ PHẦN GIẢI TRÍ VÀ THỂ THAO ĐIỆN TỬ VIỆT NAM</div>
+                <div class="content_footer1">Giấy CNĐKKD số 0105301438, cấp lần đầu ngày 10/05/2011</div>
+                <div class="content_footer1">Cơ quan cấp: Phòng Đăng ký kinh doanh- Sở Kế hoạch và đầu tư TP Hà Nội
+                </div>
+                <div class="content_footer1">Địa chỉ: Tầng 28, tòa nhà Trung tâm Lotte Hà Nội, 54 Liễu Giai, Phường Cống
+                    Vị, Quận Ba Đình, Thành phố Hà Nội, Việt Nam</div>
+                <div class="content_footer1">Điện thoại: 024 73053939</div>
+            </div>
+            <div class="nav_footer">
+                <li><a href="#">Điều khoản dịch vụ </a></li>
+                <div class="lr">|</div>
+                <li><a href="#"> Chính sách bảo mật </a></li>
+                <div class="lr">|</div>
+                <li><a href="#"> Chính sách giải quyết tranh chấp</a></li>
+            </div>
+        </footer>
+    </div>
+
+    <div class="wrapper1">
+        <header>
+            <div class="thumb_head"><img src="./ảnh/logo_res.png" alt=""></div>
+
+            <div class="form">
+                <div class="content_head">
+                    <li><a href="index.html">Trang Chủ</a></li>
+                    <li><a href="./Tin Tức/TINTUC.html">Tin Tức</a></li>
+                    <li><a href="./Liên hệ/LIENHE.html">Liên hệ</a></li>
+                </div>
+                <form action="">
+                    <input type="text" required>
+                    <button>Tìm kiếm</button>
+                </form>
+            </div>
+        </header>
+    </div>
+
+    <div class="wrapper2">
+        <header>
+            <div class="thumb_head"><img src="./ảnh/logo_res.png" alt=""></div>
+            <div class="content_head">
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="./Tin Tức/TINTUC.html">Tin Tức</a></li>
+                <li><a href="./Liên hệ/LIENHE.html">Liên hệ</a></li>
+            </div>
+            <button>Tải Game</button>
+        </header>
+        <div class="banner">
+            <div class="image2">
+                <img id="img2" onclick="changeImage2()" src="./ảnh/1920x864(3).png" alt="">
+            </div>
+            <script>
+                var index2 = 1;
+                function changeImage2() {
+                    var imgss = ["ảnh/1920x864(3).png", "ảnh/ảnh2.png", "ảnh/ảnh3.jpg", "ảnh/ảnh4.png"];
+                    document.getElementById('img2').src = imgss[index2];
+                    index2++;
+                    if (index2 == 4) {
+                        index2 = 0;
+                    }
+                }
+                setInterval(changeImage2, 2000);
+            </script>
+        </div>
+        <div class="title">
+            TIN TỨC MỚI NHẤT
+        </div>
+        <div class="content">
+            <div class="thumb"><img src="./ảnh/helen.png" alt=""></div>
+            <div class="thumb1">
+                <div class="content_thumb1"><img src="./ảnh/3591574521b486952f15d5b07d558cff65e15bb398a0d.jpg" alt="">
+                </div>
+                <div class="content_thumb2"><img src="./ảnh/5a4219fe11915dad261287ff743abaec65e6f329699b7.jpg" alt="">
+                </div>
+            </div>
+            <div class="thumb"><img src="./ảnh/hồ điệp.jpg" alt=""></div>
+            <div class="thumb1">
+                <div class="content_thumb1"><img src="./ảnh/52a5f9e5d491679b7190c21f912dfde165dd6f7238bae.jpeg" alt="">
+                </div>
+                <div class="content_thumb2"><img src="./ảnh/f1e7c1e11ff8d43e9c1618eb1c1a8d8965df076f59d8c.png" alt="">
+                </div>
+            </div>
+        </div>
+        <li class="see_more"><a href="#">XEM THÊM >></a></li>
+
+        <div class="image3">
+            <img id="img3" onclick="changeImage3()" src="./ảnh/ea72616fd3e42e359af015767759c2935ddcd37e7be3b.png"
+                alt="">
+        </div>
+        <script>
+            var index3 = 1;
+            function changeImage3() {
+                var imgs3 = ["ảnh/ea72616fd3e42e359af015767759c2935ddcd37e7be3b.png", "ảnh/c83fa58477da41640d60a60e2bcfaaab5ddcd167597f4.png", "ảnh/94f778d9bae77f0d8533dba4e0b9e50c5ddcd2bd34d7f.png", "ảnh/67bd01ee2708589e83cf48a670bb15255d63c59285fba.png", "ảnh/0f903bb4c3431e576676a86464b9c1f95ddcd48299048.png", "ảnh/0df51fbe1aedacb43acc27fc674ff22a5a780b3507cc7.png"];
+                document.getElementById('img3').src = imgs3[index3];
+                index3++;
+                if (index3 == 6) {
+                    index3 = 0;
+                }
+            }
+            // setInterval(changeImage,1000);
+        </script>
+
+        <footer>
+            <div class="thumb_footer"><img src="./ảnh/logo-footer.png" alt=""></div>
+            <div class="line1"></div>
+            <div class="content_footer">
+                <div class="content_footer1">CÔNG TY CỔ PHẦN GIẢI TRÍ VÀ THỂ THAO ĐIỆN TỬ VIỆT NAM</div>
+                <div class="content_footer1">Giấy CNĐKKD số 0105301438, cấp lần đầu ngày 10/05/2011</div>
+                <div class="content_footer1">Cơ quan cấp: Phòng Đăng ký kinh doanh- Sở Kế hoạch và đầu tư TP Hà Nội
+                </div>
+                <div class="content_footer1">Địa chỉ: Tầng 28, tòa nhà Trung tâm Lotte Hà Nội, 54 Liễu Giai, Phường Cống
+                    Vị, Quận Ba Đình, Thành phố Hà Nội, Việt Nam</div>
+                <div class="content_footer1">Điện thoại: 024 73053939</div>
+            </div>
+            <div class="nav_footer">
+                <li><a href="#">Điều khoản dịch vụ </a></li>
+                <div class="lr">|</div>
+                <li><a href="#"> Chính sách bảo mật </a></li>
+                <div class="lr">|</div>
+                <li><a href="#"> Chính sách giải quyết tranh chấp</a></li>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
